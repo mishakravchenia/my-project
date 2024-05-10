@@ -53,3 +53,38 @@ a {
   color: #000;
   background-color: #ccc;
 }
+header {
+  position: relative;
+  max-width: 1600px;
+  min-width: 180px;
+  width: 100%;
+}
+.foto {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  min-width: 500;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 2rem;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+}
+.text-br-2 {
+  border: 0px;
+  padding: 7px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.542);
+}
